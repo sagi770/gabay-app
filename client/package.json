@@ -3,23 +3,48 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.51",
+    "@material-ui/styles": "^4.9.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.47",
-    "@types/react": "^16.9.36",
-    "@types/react-dom": "^16.9.8",
+    "axios": "^0.19.2",
+    "clsx": "^1.1.0",
+    "history": "^4.10.1",
+    "jwt-decode": "^2.2.0",
+    "material-table": "^1.57.2",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "^2.24.0",
+    "node-sass": "^4.14.0",
+    "npm-watch": "^0.6.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-month-picker": "^2.2.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "typescript": "^3.7.5"
+    "recompose": "^0.30.0",
+    "underscore": "^1.10.2",
+    "uuid": "^8.0.0",
+    "validate.js": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
   },
   "eslintConfig": {
     "extends": "react-app"

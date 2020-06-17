@@ -17,6 +17,7 @@ app.use(cors());
 
 app.use("/api/login", require("./routes/user"));
 
+app.use("/api/members", Auth, require("./routes/members"));
 app.use("/api/utils", Auth, require("./routes/utils"));
 
 app.get("/api/auth", Auth, function(req, res) {
