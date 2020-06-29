@@ -25,7 +25,7 @@
     "react-month-picker": "^2.2.0",
     "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "recompose": "^0.30.0",
     "underscore": "^1.10.2",
     "uuid": "^8.0.0",
